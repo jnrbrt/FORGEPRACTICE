@@ -1,0 +1,10 @@
+{
+  "item.tutorialmod.alexandrite": "Alexandrite",
+  "item.tutorialmod.raw_alexandrite": "Nyers Alexandrite",
+
+  "block.tutorialmod.alexandrite_block": "Alexandriteblokk",
+  "block.tutorialmod.raw_alexandrite_block": "Nyers Alexandriteblokk",
+
+  "creativetab.tutorialmod.alexandrite_items": "Alexandrite Tárgyak",
+  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blokkok"
+}
