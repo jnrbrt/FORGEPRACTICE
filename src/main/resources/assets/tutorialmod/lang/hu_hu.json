@@ -16,5 +16,11 @@
   "block.tutorialmod.magic_block": "Varázsblokk",
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Tárgyak",
-  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blokkok"
+  "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blokkok",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "Ez a blokk §9VARÁZSLATOS§r",
+  "tooltip.tutorialmod.chisel.shift_down": "Ez az eszköz megváltoztat egyes §5Blokkokat§r.",
+  "tooltip.tutorialmod.chisel": "Nyomjd meg a  §eShiftet§r további információkért!",
+  "tooltip.tutorialmod.kohlrabi": "FINCSI!",
+  "tooltip.tutorialmod.kobanyai.tooltip": "Jutalom a nap végére!"
 }
