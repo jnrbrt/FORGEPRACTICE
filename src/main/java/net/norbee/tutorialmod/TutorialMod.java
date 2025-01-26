@@ -63,6 +63,7 @@ public class TutorialMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
+            event.accept(ModItems.AURORA_ASHES);
         }
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES){
@@ -71,6 +72,11 @@ public class TutorialMod
 
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
             event.accept(ModBlocks.MAGIC_BLOCK);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.KOHLRABI);
+            event.accept(ModItems.KOBANYAI);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){

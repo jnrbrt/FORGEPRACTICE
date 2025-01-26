@@ -7,6 +7,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.norbee.tutorialmod.TutorialMod;
 import net.norbee.tutorialmod.item.custom.ChiselItem;
+import net.norbee.tutorialmod.item.custom.Fueltem;
+import net.norbee.tutorialmod.item.custom.Kobanyai;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -19,6 +21,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
             ()-> new ChiselItem(new Item.Properties().durability(32)));
+
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            ()-> new Item(new Item.Properties().food(ModFoodProperties.KOHLRABI)));
+    public static final RegistryObject<Item> KOBANYAI = ITEMS.register("kobanyai",
+            ()-> new Kobanyai(new Item.Properties().food(ModFoodProperties.KOBANYAI)));
+
+    public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
+            ()->new Fueltem(new Item.Properties(), 1200));
 
 
     public static void register(IEventBus eventBus){

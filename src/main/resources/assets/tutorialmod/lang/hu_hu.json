@@ -4,6 +4,10 @@
 
   "item.tutorialmod.chisel": "Véső",
 
+  "item.tutorialmod.kohlrabi": "Karalábé",
+  "item.tutorialmod.kobanyai": "Kőbányai",
+  "item.tutorialmod.aurora_ashes": "Aurora Hamvai",
+
   "block.tutorialmod.alexandrite_block": "Alexandriteblokk",
   "block.tutorialmod.raw_alexandrite_block": "Nyers Alexandriteblokk",
   "block.tutorialmod.alexandrite_ore": "Alexandrite Érc",
