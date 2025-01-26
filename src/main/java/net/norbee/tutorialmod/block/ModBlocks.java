@@ -37,7 +37,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            ()->new MagicBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            ()->new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         ModItems.ITEMS.register(name, ()-> new BlockItem(block.get(), new Item.Properties()));

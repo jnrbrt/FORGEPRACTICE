@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.norbee.tutorialmod.item.ModItems;
+import net.norbee.tutorialmod.util.ModTags;
 
 import java.util.List;
 
@@ -36,7 +37,7 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level pLevel, BlockPos pPos, BlockState pState, Entity pEntity) {
         if(pEntity instanceof ItemEntity itemEntity){
-            if(itemEntity.getItem().getItem() == ModItems.RAW_ALEXANDRITE.get()){
+            if(isValidItem(itemEntity.getItem())){
                 itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
             }
             if(itemEntity.getItem().getItem() == Items.RABBIT_FOOT){
@@ -46,6 +47,10 @@ public class MagicBlock extends Block {
         }
 
         super.stepOn(pLevel, pPos, pState, pEntity);
+    }
+
+    private boolean isValidItem(ItemStack item) {
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 
     @Override
