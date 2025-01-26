@@ -2,10 +2,14 @@
   "item.tutorialmod.alexandrite": "Alexandrite",
   "item.tutorialmod.raw_alexandrite": "Nyers Alexandrite",
 
+  "item.tutorialmod.chisel": "Véső",
+
   "block.tutorialmod.alexandrite_block": "Alexandriteblokk",
   "block.tutorialmod.raw_alexandrite_block": "Nyers Alexandriteblokk",
   "block.tutorialmod.alexandrite_ore": "Alexandrite Érc",
   "block.tutorialmod.alexandrite_deepslate_ore": "Alexandrite Mélypala Érc",
+
+  "block.tutorialmod.magic_block": "Varázsblokk",
 
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Tárgyak",
   "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blokkok"
