@@ -15,6 +15,19 @@
 
   "block.tutorialmod.magic_block": "Varázsblokk",
 
+  "block.tutorialmod.alexandrite_stairs": "Alexandrite Lépcső",
+  "block.tutorialmod.alexandrite_slab": "Alexandrite Félblokk",
+
+  "block.tutorialmod.alexandrite_button": "Alexandrite Gomb",
+  "block.tutorialmod.alexandrite_pressure_plate": "Alexandrite Pressúra Plét",
+
+  "block.tutorialmod.alexandrite_fence": "Alexandrite Kerítés",
+  "block.tutorialmod.alexandrite_fence_gate": "Alexandrite Kerítés Kapu",
+  "block.tutorialmod.alexandrite_wall": "Alexandrite Fal",
+
+  "block.tutorialmod.alexandrite_door": "Alexandrite Ajtó",
+  "block.tutorialmod.alexandrite_trapdoor": "Alexandrite Csapóajtó",
+
   "creativetab.tutorialmod.alexandrite_items": "Alexandrite Tárgyak",
   "creativetab.tutorialmod.alexandrite_blocks": "Alexandrite Blokkok",
 

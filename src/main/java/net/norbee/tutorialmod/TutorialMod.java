@@ -72,6 +72,13 @@ public class TutorialMod
 
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
             event.accept(ModBlocks.MAGIC_BLOCK);
+
+            event.accept(ModBlocks.ALEXANDRITE_DOOR);
+            event.accept(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);
+            event.accept(ModBlocks.ALEXANDRITE_BUTTON);
+            event.accept(ModBlocks.ALEXANDRITE_FENCE_GATE);
+            event.accept(ModBlocks.ALEXANDRITE_TRAPDOOR);
+
         }
 
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
@@ -84,6 +91,11 @@ public class TutorialMod
             event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
             event.accept(ModBlocks.ALEXANDRITE_ORE);
             event.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE);
+
+            event.accept(ModBlocks.ALEXANDRITE_WALL);
+            event.accept(ModBlocks.ALEXANDRITE_FENCE);
+            event.accept(ModBlocks.ALEXANDRITE_SLAB);
+            event.accept(ModBlocks.ALEXANDRITE_STAIRS);
         }
     }
 
