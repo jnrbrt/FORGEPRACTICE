@@ -39,6 +39,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .define('A', Items.IRON_INGOT).define('B', Items.PAPER).define('C', Items.STRING)
                         .unlockedBy(getHasName(Items.IRON_INGOT), has(Items.IRON_INGOT)).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALEXANDRITE_LAMP.get())
+                        .pattern("GGG")
+                        .pattern("GAG")
+                        .pattern("GGG")
+                                .define('G', Items.GLASS).define('A', ModItems.ALEXANDRITE.get())
+                        .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(),9)
                 .requires(ModBlocks.ALEXANDRITE_BLOCK.get())

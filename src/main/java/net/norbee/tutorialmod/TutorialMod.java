@@ -72,6 +72,7 @@ public class TutorialMod
 
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS){
             event.accept(ModBlocks.MAGIC_BLOCK);
+            event.accept(ModBlocks.ALEXANDRITE_LAMP);
 
             event.accept(ModBlocks.ALEXANDRITE_DOOR);
             event.accept(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);

@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.norbee.tutorialmod.TutorialMod;
+import net.norbee.tutorialmod.block.custom.AlexandriteLampBlock;
 import net.norbee.tutorialmod.block.custom.MagicBlock;
 import net.norbee.tutorialmod.item.ModItems;
 
@@ -65,7 +66,9 @@ public class ModBlocks {
             () -> new TrapDoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().noOcclusion()));
 
 
-
+    public static final RegistryObject<Block> ALEXANDRITE_LAMP = registerBlock("alexandrite_lamp",
+            ()-> new AlexandriteLampBlock(BlockBehaviour.Properties.of().strength(3f)
+                    .lightLevel(state-> state.getValue(AlexandriteLampBlock.CLICKED) ? 15 : 0)));
 
 
 
